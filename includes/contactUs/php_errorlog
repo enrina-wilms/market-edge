@@ -1,0 +1,18 @@
+[16-May-2019 06:28:44 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enrinawi_stock_market.CONTACTS' doesn't exist in /home/enrinawi/public_html/marketedge.tk/models/contact.php:16
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/contact.php(16): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/contactUs/messages.php(7): Contact->getAllContacts(Object(PDO))
+#2 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/contact.php on line 16
+[16-May-2019 06:28:51 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enrinawi_stock_market.CONTACTS' doesn't exist in /home/enrinawi/public_html/marketedge.tk/models/contact.php:16
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/contact.php(16): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/contactUs/messages.php(7): Contact->getAllContacts(Object(PDO))
+#2 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/contact.php on line 16
+[16-May-2019 19:00:52 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enrinawi_stock_market.CONTACTS' doesn't exist in /home/enrinawi/public_html/marketedge.tk/models/contact.php:16
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/contact.php(16): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/contactUs/messages.php(7): Contact->getAllContacts(Object(PDO))
+#2 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/contact.php on line 16

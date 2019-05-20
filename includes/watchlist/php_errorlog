@@ -1,0 +1,6 @@
+[16-May-2019 14:24:05 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'company' in 'field list' in /home/enrinawi/public_html/marketedge.tk/models/watchlist/watchlist.php:20
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/watchlist/watchlist.php(20): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/watchlist/addWatchlist.php(12): Watchlist->addTicker('AAPL', 'Apple, Inc.', Object(PDO), '23')
+#2 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/watchlist/watchlist.php on line 20

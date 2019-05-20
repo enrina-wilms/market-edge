@@ -1,0 +1,115 @@
+body {
+	margin:0;
+	padding:0;
+/*	background:url(../images/tsx.jpg);*/
+/*	background-size:cover;*/
+	background: #343A40!important;
+    font-family: 'Lato', sans-serif;
+}
+
+.login-form{
+	max-width: 600px;
+	width:85%;
+	background:#fff;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	padding: 30px 40px;
+	box-sizing:border-box;
+	border-radius:8px;
+	text-align:center;
+	box-shadow:0 0 20px  #000000b3;
+	margin: 0 auto;
+}
+.signup-form{
+	max-width: 600px;
+	width:85%;
+	background:#fff;
+	position:absolute;
+	top:70%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	padding: 30px 70px;
+	box-sizing:border-box;
+	border-radius:8px;
+	text-align:center;
+	box-shadow:0 0 20px  #000000b3;
+	margin: 0 auto;
+}
+.signup-form h1, .login-form h1{
+   margin-top:0;
+   font-weight:200;
+   color:#7F7D81;
+   font-weight: bold;
+}
+.txt{
+/*	border:1px solid gray;*/
+	margin: 8px 0;
+	padding:12px 18px;
+	border-radius:8px;	
+	
+}
+.txt label{
+	display:block;
+	text-align:left;
+	color:#333;
+	text-transform:uppercase;
+	font-size:14px;
+	
+}
+.txt input, .txt textarea{
+	width:100%;
+	border:none;
+	border-bottom: 2px solid #2d2d2d;
+	padding-bottom: 5px;
+	background:none;
+	outline:none;
+	font-size:16px;
+	margin-top:3px;
+}
+.btn-send {
+	display:inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding:14px 0;
+	color:white;
+	background:#FBC531;
+	cursor:pointer;
+	margin-top:8px;
+	width:100%;
+	font-size:18px;
+	border: none;
+	border-radius: 8px;
+}
+.btn-send:hover{
+	background:#3B3C3E;
+	
+}
+
+.forgot{
+	text-decoration:none;
+	
+}
+.link_home_page{
+	
+	text-decoration:none;
+	
+}
+.link_home_page2{
+	
+	text-decoration:none;
+	margin-left:20px;
+}
+.link_home_page:hover, .link_home_page2:hover{
+	color:red;
+}
+.logo-container{
+	background: #343A40;
+	padding: 20px;
+	border-radius: 8px;
+}
+.login-form-link{
+	color: #2d2d2d!important;
+	
+}

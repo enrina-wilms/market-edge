@@ -1,0 +1,12 @@
+[16-May-2019 06:28:56 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enrinawi_stock_market.USERS' doesn't exist in /home/enrinawi/public_html/marketedge.tk/models/user.php:20
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/user.php(20): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/loginRegistration/users.php(8): User->getAllUsers(Object(PDO))
+#2 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/user.php on line 20
+[16-May-2019 19:01:02 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'enrinawi_stock_market.USERS' doesn't exist in /home/enrinawi/public_html/marketedge.tk/models/user.php:20
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/user.php(20): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/loginRegistration/users.php(8): User->getAllUsers(Object(PDO))
+#2 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/user.php on line 20

@@ -1,0 +1,32 @@
+[16-May-2019 14:31:44 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`enrinawi_stock_market`.`portfolio`, CONSTRAINT `users_portfolio` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php:26
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php(26): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/addPortfolio.php(18): Portfolio->addTicker(Object(PDO), 'IOVA', 'Iovance Biother...', '2', '15.18', '23')
+#2 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php on line 26
+[16-May-2019 14:31:52 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`enrinawi_stock_market`.`portfolio`, CONSTRAINT `users_portfolio` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php:26
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php(26): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/addPortfolio.php(18): Portfolio->addTicker(Object(PDO), 'KEM', 'KEMET Corp.', '5', '19.04', '23')
+#2 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php on line 26
+[16-May-2019 14:32:05 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`enrinawi_stock_market`.`portfolio`, CONSTRAINT `users_portfolio` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php:26
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php(26): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/addPortfolio.php(18): Portfolio->addTicker(Object(PDO), 'MGNX', 'MacroGenics, In...', '6', '17.83', '23')
+#2 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php on line 26
+[16-May-2019 14:32:24 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`enrinawi_stock_market`.`portfolio`, CONSTRAINT `users_portfolio` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php:26
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php(26): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/addPortfolio.php(18): Portfolio->addTicker(Object(PDO), 'AAPL', 'Apple, Inc.', '5', '197.18', '23')
+#2 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php on line 26
+[16-May-2019 20:35:07 CST6CDT] PHP Fatal error:  require_once(): Failed opening required '/home/enrinawi/public_html/marketedge.tk/portfolio/listPortfolioSetting.php' (include_path='/home/enrinawi/public_html/marketedge.tk/includes:/home/enrinawi/public_html/marketedge.tk/includes/blogs:/home/enrinawi/public_html/marketedge.tk/includes/chart:/home/enrinawi/public_html/marketedge.tk/includes/contactUs:/home/enrinawi/public_html/marketedge.tk/includes/events:/home/enrinawi/public_html/marketedge.tk/includes/faq:/home/enrinawi/public_html/marketedge.tk/includes/gainersLosers:/home/enrinawi/public_html/marketedge.tk/includes/loginRegistration:/home/enrinawi/public_html/marketedge.tk/includes/news:/home/enrinawi/public_html/marketedge.tk/includes/portfolio:/home/enrinawi/public_html/marketedge.tk/includes/search:/home/enrinawi/public_html/marketedge.tk/includes/status:/home/enrinawi/public_html/marketedge.tk/includes/watchlist:/home/enrinawi/public_html/marketedge.tk/models:/home/enrinawi/public_html/marketedge.tk/models/blogs:/home/enrinawi/public_html/marketed in /home/enrinawi/public_html/marketedge.tk/includes/portfolio/editPortfolio.php on line 5
+[17-May-2019 09:08:50 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php:12
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php(12): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/listPortfolio.php(12): Portfolio->getPortfolio(Object(PDO), NULL)
+#2 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/portfolioView.php(26): require_once('/home/enrinawi/...')
+#3 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php on line 12

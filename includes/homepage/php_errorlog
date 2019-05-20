@@ -1,0 +1,79 @@
+[16-May-2019 10:08:14 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php:12
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php(12): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/listPortfolio.php(12): Portfolio->getPortfolio(Object(PDO), NULL)
+#2 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/portfolioHomepage.php(21): require_once('/home/enrinawi/...')
+#3 /home/enrinawi/public_html/marketedge.tk/includes/homepage/homepage.php(67): require_once('/home/enrinawi/...')
+#4 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php on line 12
+[16-May-2019 13:15:23 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php:12
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php(12): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/listPortfolio.php(12): Portfolio->getPortfolio(Object(PDO), NULL)
+#2 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/portfolioHomepage.php(21): require_once('/home/enrinawi/...')
+#3 /home/enrinawi/public_html/marketedge.tk/includes/homepage/homepage.php(67): require_once('/home/enrinawi/...')
+#4 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php on line 12
+[16-May-2019 13:15:25 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php:12
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php(12): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/listPortfolio.php(12): Portfolio->getPortfolio(Object(PDO), NULL)
+#2 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/portfolioHomepage.php(21): require_once('/home/enrinawi/...')
+#3 /home/enrinawi/public_html/marketedge.tk/includes/homepage/homepage.php(67): require_once('/home/enrinawi/...')
+#4 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php on line 12
+[16-May-2019 13:15:26 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php:12
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php(12): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/listPortfolio.php(12): Portfolio->getPortfolio(Object(PDO), NULL)
+#2 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/portfolioHomepage.php(21): require_once('/home/enrinawi/...')
+#3 /home/enrinawi/public_html/marketedge.tk/includes/homepage/homepage.php(67): require_once('/home/enrinawi/...')
+#4 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php on line 12
+[16-May-2019 13:15:29 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php:12
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php(12): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/listPortfolio.php(12): Portfolio->getPortfolio(Object(PDO), NULL)
+#2 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/portfolioHomepage.php(21): require_once('/home/enrinawi/...')
+#3 /home/enrinawi/public_html/marketedge.tk/includes/homepage/homepage.php(67): require_once('/home/enrinawi/...')
+#4 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php on line 12
+[16-May-2019 13:15:30 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php:12
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php(12): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/listPortfolio.php(12): Portfolio->getPortfolio(Object(PDO), NULL)
+#2 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/portfolioHomepage.php(21): require_once('/home/enrinawi/...')
+#3 /home/enrinawi/public_html/marketedge.tk/includes/homepage/homepage.php(67): require_once('/home/enrinawi/...')
+#4 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php on line 12
+[16-May-2019 15:28:20 America/Toronto] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`enrinawi_stock_market`.`status`, CONSTRAINT `fk_suser` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/enrinawi/public_html/marketedge.tk/models/status/userStatus.php:47
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/status/userStatus.php(47): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/status/statusAdd.php(40): Status->addStatus('<p>Posting a st...', '2019-05-16 03:2...', '23', 'Enrina', 'Wilms', Object(PDO))
+#2 /home/enrinawi/public_html/marketedge.tk/includes/homepage/homepage.php(9): require_once('/home/enrinawi/...')
+#3 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/status/userStatus.php on line 47
+[17-May-2019 09:11:12 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php:12
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php(12): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/listPortfolio.php(12): Portfolio->getPortfolio(Object(PDO), NULL)
+#2 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/portfolioHomepage.php(21): require_once('/home/enrinawi/...')
+#3 /home/enrinawi/public_html/marketedge.tk/includes/homepage/homepage.php(67): require_once('/home/enrinawi/...')
+#4 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php on line 12
+[19-May-2019 15:11:57 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php:12
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php(12): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/listPortfolio.php(12): Portfolio->getPortfolio(Object(PDO), NULL)
+#2 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/portfolioHomepage.php(21): require_once('/home/enrinawi/...')
+#3 /home/enrinawi/public_html/marketedge.tk/includes/homepage/homepage.php(67): require_once('/home/enrinawi/...')
+#4 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php on line 12
+[19-May-2019 15:12:00 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php:12
+Stack trace:
+#0 /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php(12): PDOStatement->execute()
+#1 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/listPortfolio.php(12): Portfolio->getPortfolio(Object(PDO), NULL)
+#2 /home/enrinawi/public_html/marketedge.tk/includes/portfolio/portfolioHomepage.php(21): require_once('/home/enrinawi/...')
+#3 /home/enrinawi/public_html/marketedge.tk/includes/homepage/homepage.php(67): require_once('/home/enrinawi/...')
+#4 {main}
+  thrown in /home/enrinawi/public_html/marketedge.tk/models/portfolio/portfolio.php on line 12

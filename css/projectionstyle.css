@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing:inherit;
+}
+#main{
+    background-color: #949BA2;
+}
+#graphImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:1000px;
+}
